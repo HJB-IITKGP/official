@@ -1,5 +1,5 @@
 const all_hcms = [{
-    year: 21,
+    year: 2021,
     imgSrc: "../assets/hcm21/aDeep.jpg",
     name: "Anubhav Deep",
     position: "Hall President",
@@ -7,7 +7,7 @@ const all_hcms = [{
     in_link: "https://www.linkedin.com/in/anubhav-deep",
     email_link: "mailto:anubhavdeep.singh.karnal@gmail.com"
 }, {
-    year: 21,
+    year: 2021,
     imgSrc: "../assets/hcm21/sTidke.jpg",
     name: "Samadhan Tidke",
     position: "Second Senate Member",
@@ -15,7 +15,7 @@ const all_hcms = [{
     in_link: "https://www.linkedin.com/in/samadhan-tidke-1baa3a169",
     email_link: "mailto:samadhantidke54@gmail.com"
 }, {
-    year: 21,
+    year: 2021,
     imgSrc: "../assets/hcm21/akSingh.jpg",
     name: "Anuj Kumar Singh",
     position: "General Secretary Social and Cultural",
@@ -23,7 +23,7 @@ const all_hcms = [{
     in_link: "https://www.linkedin.com/in/singhkumaranuj",
     email_link: "mailto:anujsharanamu@gmail.com"
 }, {
-    year: 21,
+    year: 2021,
     imgSrc: "../assets/hcm21/aDachepally.jpg",
     name: "Abhilash Dachepally",
     position: "General Secretary Sports and Games",
@@ -31,7 +31,7 @@ const all_hcms = [{
     in_link: "https://www.linkedin.com/in/abhilash-dachepally-b60259170",
     email_link: "mailto:abhilashdachepally@gmail.com"
 }, {
-    year: 21,
+    year: 2021,
     imgSrc: "../assets/hcm21/mGupta.jpg",
     name: "Mudit Gupta",
     position: "General Secretary Technology",
@@ -39,7 +39,7 @@ const all_hcms = [{
     in_link: "https://www.linkedin.com/in/mudit-gupta-b5a206180",
     email_link: "mailto:muditgupta140@gmail.com"
 }, {
-    year: 21,
+    year: 2021,
     imgSrc: "../assets/hcm21/tNaik.jpg",
     name: "Tharun Naik",
     position: "General Secretary Student's Welfare",
@@ -47,7 +47,7 @@ const all_hcms = [{
     in_link: "https://www.linkedin.com/in/tharunnaik",
     email_link: "mailto:itistheinventor@gmail.com"
 }, {
-    year: 20,
+    year: 2020,
     imgSrc: "../assets/hcm20/aKaushal.jpeg",
     name: "Abhishek Kaushal",
     position: "Hall President",
@@ -55,7 +55,7 @@ const all_hcms = [{
     in_link: "https://www.linkedin.com/in/abhishek-kaushal-81205a162",
     email_link: "mailto:abhishekkaushal98.ak@gmail.com"
 }, {
-    year: 20,
+    year: 2020,
     imgSrc: "../assets/hcm20/sBhattacharya.jpeg",
     name: "Shubhram Bhattacharya",
     position: "Second Senate Member",
@@ -63,7 +63,7 @@ const all_hcms = [{
     in_link: "https://www.linkedin.com/in/shubhram-bhattacharya-033b5b129",
     email_link: "mailto:shubh.bhatta@gmail.com"
 }, {
-    year: 20,
+    year: 2020,
     imgSrc: "../assets/hcm20/sTidke.jpg",
     name: "Samadhan Tidke",
     position: "General Secretary Social and Cultural",
@@ -71,7 +71,7 @@ const all_hcms = [{
     in_link: "https://www.linkedin.com/in/samadhan-tidke-1baa3a169",
     email_link: "mailto:samadhantidke54@gmail.com"
 }, {
-    year: 20,
+    year: 2020,
     imgSrc: "../assets/hcm20/aDeep.jpg",
     name: "Anubhav Deep",
     position: "General Secretary Alumni Affairs",
@@ -79,7 +79,7 @@ const all_hcms = [{
     in_link: "https://www.linkedin.com/in/anubhav-deep",
     email_link: "mailto:anubhavdeep.singh.karnal@gmail.com"
 }, {
-    year: 20,
+    year: 2020,
     imgSrc: "../assets/hcm20/nKumar.jpeg",
     name: "Nishant Kumar",
     position: "General Secretary Sports and Games",
@@ -87,7 +87,7 @@ const all_hcms = [{
     in_link: "https://www.linkedin.com/in/nishant-kumar-455892176",
     email_link: "mailto:kumarnishant8821@gmail.com"
 }, {
-    year: 20,
+    year: 2020,
     imgSrc: "../assets/hcm20/sstJuluri.jpeg",
     name: "Shree Shiva Teja Juluri",
     position: "General Secretary Technology",
@@ -95,7 +95,7 @@ const all_hcms = [{
     in_link: "https://www.linkedin.com/in/shree-shiva-teja-juluri-32bbb218a",
     email_link: "mailto:jshreeshivateja@gmail.com"
 }, {
-    year: 20,
+    year: 2020,
     imgSrc: "../assets/hcm20/nRaj.jpeg",
     name: "Nishchay Raj",
     position: "General Secretary Student's Welfare",
@@ -103,7 +103,7 @@ const all_hcms = [{
     in_link: "https://www.linkedin.com/in/nischay-raj-4b910516a",
     email_link: "mailto:nischayrajmuz17@gmail.com"
 }, {
-    year: 20,
+    year: 2020,
     imgSrc: "../assets/hcm20/vsRaj.jpeg",
     name: "Varun Satya Raj",
     position: "General Secretary Maintenance",
@@ -111,7 +111,7 @@ const all_hcms = [{
     in_link: "#",
     email_link: "mailto:satyarajvarun@gmail.com"
 }, {
-    year: 20,
+    year: 2020,
     imgSrc: "../assets/hcm20/hVenkata.jpeg",
     name: "Harshith Venkata",
     position: "General Secretary Library and Gardening",
@@ -119,7 +119,7 @@ const all_hcms = [{
     in_link: "https://www.linkedin.com/in/harshith-venkata-38a278184",
     email_link: "mailto:bvharshith610@gmail.com"
 }, {
-    year: 20,
+    year: 2020,
     imgSrc: "../assets/hcm20/mKarthik.jpeg",
     name: "Murali Karthik",
     position: "General Secretary Mess",
@@ -127,7 +127,7 @@ const all_hcms = [{
     in_link: "https://www.linkedin.com/in/muralikarthik7",
     email_link: "mailto:gmk.muralikarthik@gmail.com"
 }, {
-    year: 19,
+    year: 2019,
     imgSrc: "../assets/hcm19/aGarg.jpg",
     name: "Aman Garg",
     position: "Hall President",
@@ -135,7 +135,7 @@ const all_hcms = [{
     in_link: "https://www.linkedin.com/in/aman-garg-2a5b84116",
     email_link: "mailto:amangarg0212@gmail.com"
 }, {
-    year: 19,
+    year: 2019,
     imgSrc: "../assets/hcm19/sPise.jpg",
     name: "Shivraj Pise",
     position: "Second Senate Member",
@@ -143,7 +143,7 @@ const all_hcms = [{
     in_link: "https://www.linkedin.com/in/shivrajpise",
     email_link: "mailto:Shivrajpise@gmail.com"
 }, {
-    year: 19,
+    year: 2019,
     imgSrc: "../assets/hcm19/pSinha.jpg",
     name: "Prithwi Sinha",
     position: "General Secretary Technology",
@@ -151,7 +151,7 @@ const all_hcms = [{
     in_link: "https://www.linkedin.com/in/prithwi-sinha-481b3013a",
     email_link: "mailto:sinhaprithwi@gmail.com"
 }, {
-    year: 19,
+    year: 2019,
     imgSrc: "../assets/hcm19/sBansal.jpg",
     name: "Srijan Bansal",
     position: "General Secretary Sports and Games",
@@ -159,7 +159,7 @@ const all_hcms = [{
     in_link: "https://www.linkedin.com/in/srijan-bansal",
     email_link: "mailto:srijanbansal97@gmail.com"
 }, {
-    year: 19,
+    year: 2019,
     imgSrc: "../assets/hcm19/rPatidar.jpeg",
     name: "Rupesh Patidar",
     position: "General Secretary Social and Cultural",
@@ -167,7 +167,7 @@ const all_hcms = [{
     in_link: "#",
     email_link: "mailto:rupeshpatidar1697@gmail.com"
 }, {
-    year: 19,
+    year: 2019,
     imgSrc: "../assets/hcm19/rSharma.jpg",
     name: "Rohit Sharma",
     position: "General Secretary Maintenance",
@@ -175,7 +175,7 @@ const all_hcms = [{
     in_link: "https://www.linkedin.com/in/rohit-sharma-68a1263a",
     email_link: "mailto:rohit161097@gmail.com"
 }, {
-    year: 19,
+    year: 2019,
     imgSrc: "../assets/hcm19/sBhattacharya.jpeg",
     name: "Shubhram Bhattacharya",
     position: "General Secretary Mess",
@@ -183,7 +183,7 @@ const all_hcms = [{
     in_link: "https://www.linkedin.com/in/shubhram-bhattacharya-033b5b129",
     email_link: "mailto:shubh.bhatta@gmail.com"
 }, {
-    year: 19,
+    year: 2019,
     imgSrc: "../assets/hcm19/aKaushal.jpeg",
     name: "Abhishek Kaushal",
     position: "General Secretary Student's Welfare",
@@ -191,7 +191,7 @@ const all_hcms = [{
     in_link: "https://www.linkedin.com/in/abhishek-kaushal-81205a162",
     email_link: "mailto:abhishekkaushal98.ak@gmail.com"
 }, {
-    year: 19,
+    year: 2019,
     imgSrc: "../assets/hcm19/mPrajapat.jpg",
     name: "Manish Prajapat",
     position: "General Secretary Library",
@@ -199,22 +199,26 @@ const all_hcms = [{
     in_link: "https://www.linkedin.com/in/manish-kumar-prajapat-523b4a176",
     email_link: "mailto:manishprajapat180998@gmail.com"
 }];
-let currentYear = new Date();
-const hcmSection = document.querySelector('.hcm-current');
-hcmSection.innerHTML = get_HCMs();
+const years = [...new Set(all_hcms.map(hcm => hcm.year))]
 
-const btns = document.querySelectorAll('.year');
-let activeBtn = document.querySelector('.active')
+const btnsCont = document.querySelector('.btn-container');
+btnsCont.innerHTML = `${years.map(yr =>  `<button class="year">${yr-1}-${yr%100}</button>` ).join("")}`
+const btns = [...btnsCont.children];
+let activeBtn = btns[0]
+activeBtn.classList.add('active'); // by default first one button is active.
+
+const hcmSection = document.querySelector('.hcm-current');
+hcmSection.innerHTML = get_HCMs(years[0]);
+
 btns.forEach((btn, index) => {
-    btn.innerHTML = `${currentYear.getFullYear() - index - 1}-${(currentYear.getFullYear() - index)%100}`;
     btn.addEventListener('click', (e) => {
         activeBtn.classList.remove('active');
         e.currentTarget.classList.add('active');
         activeBtn = e.currentTarget;
         let tenure = e.currentTarget.innerHTML;
-        let year = parseInt(tenure.slice(tenure.length - 2));
+        let year = parseInt(tenure.slice(0,4)) + 1;
         hcmSection.innerHTML = get_HCMs(year);
-        let anchors = [...document.querySelectorAll('a')];
+        let anchors = [...hcmSection.querySelectorAll('a')];
         invalid_a = anchors.filter(a => a.getAttribute('href') === "#");
         invalid_a.forEach(a => {
             a.style.visibility = "hidden";
@@ -223,7 +227,7 @@ btns.forEach((btn, index) => {
     });
 })
 
-function get_HCMs(year = currentYear.getFullYear() % 100) {
+function get_HCMs(year) {
     // filter the all_hcms, so as to get only HCM of year = year.
     let year_hcm = all_hcms.filter(hcm => {
         if (hcm.year === year) {
