@@ -1,4 +1,76 @@
 const all_hcms = [{
+    year: 2022,
+    imgSrc: "../assets/hcm22/tNaik.jpg",
+    name: "Tharun Naik",
+    position: "Hall President",
+    f_link: "https://www.facebook.com/tharun.naik.589",
+    in_link: "https://www.linkedin.com/in/tharunnaik",
+    email_link: "mailto:itistheinventor@gmail.com"
+}, {
+    year: 2022,
+    imgSrc: "../assets/hcm22/akSingh.jpg",
+    name: "Anuj Kumar Singh",
+    position: "Second Senate Member",
+    f_link: "https://www.facebook.com/anuj.kumar.1999",
+    in_link: "https://www.linkedin.com/in/singhkumaranuj",
+    email_link: "mailto:anujsharanamu@gmail.com"
+}, {
+    year: 2022,
+    imgSrc: "../assets/hcm22/usChauhan.png",
+    name: "Utkarsh Singh Chauhan",
+    position: "General Secretary Sports and Games",
+    f_link: "https://www.facebook.com/profile.php?id=100009999278580",
+    in_link: "https://www.linkedin.com/in/utkarsh-singh-chauhan/",
+    email_link: "mailto:utkarshshauhan11112@gmail.com"
+}, {
+    year: 2022,
+    imgSrc: "../assets/hcm22/aKatewa.png",
+    name: "Ankit Katewa",
+    position: "General Secretary Social and Cultural",
+    f_link: "https://www.facebook.com/ankit.katewa.0",
+    in_link: "https://www.linkedin.com/in/ankit-katewa/",
+    email_link: "mailto:ankitmatrix3@gmail.com"
+}, {
+    year: 2022,
+    imgSrc: "../assets/hcm22/sSaurav.png",
+    name: "Shubham Saurav",
+    position: "General Secretary Technology",
+    f_link: "https://www.facebook.com/shubham.saurav.106",
+    in_link: "https://www.linkedin.com/in/shubham-saurav-68a6771aa/",
+    email_link: "mailto:sssaurav5778@gmail.com"
+}, {
+    year: 2022,
+    imgSrc: "../assets/hcm22/gSingh.jpg",
+    name: "Gurjot Singh",
+    position: "General Secretary Alumni Affairs",
+    f_link: "https://www.facebook.com/profile.php?id=100039019936082",
+    in_link: "https://www.linkedin.com/in/gurjot-singh-638852196/",
+    email_link: "mailto:Gurjot91201@gmail.com"
+}, {
+    year: 2022,
+    imgSrc: "../assets/hcm22/dRithvik.png",
+    name: "Dandari Rithvik",
+    position: "General Secretary Student's Welfare",
+    f_link: "https://www.facebook.com/rithvik.champion.9",
+    in_link: "https://www.linkedin.com/in/rithvik-dandari-9b2033236",
+    email_link: "mailto:drithvikchampion@gmail.com"
+}, {
+    year: 2022,
+    imgSrc: "../assets/hcm22/jSardhar.png",
+    name: "Jarpula Sardhar",
+    position: "General Secretary Maintenance",
+    f_link: "https://www.facebook.com/jarupula.s.naik",
+    in_link: "https://www.linkedin.com/in/jarpula-sardhar-2b9932189/",
+    email_link: "mailto:jarpulasardhar@gmail.com"
+}, {
+    year: 2022,
+    imgSrc: "../assets/hcm22/bSampath.png",
+    name: "Boda Sampath",
+    position: "General Secretary Mess",
+    f_link: "https://www.facebook.com/sampathnayak.nayak.39",
+    in_link: "https://www.linkedin.com/in/boda-sampath-2a547b199/",
+    email_link: "mailto:sampathboda1105@gmail.com"
+}, {
     year: 2021,
     imgSrc: "../assets/hcm21/aDeep.jpg",
     name: "Anubhav Deep",
@@ -14,6 +86,14 @@ const all_hcms = [{
     f_link: "https://www.facebook.com/samadhan.tidke.10",
     in_link: "https://www.linkedin.com/in/samadhan-tidke-1baa3a169",
     email_link: "mailto:samadhantidke54@gmail.com"
+}, {
+    year: 2021,
+    imgSrc: "../assets/hcm21/tNaik.jpg",
+    name: "Tharun Naik",
+    position: "General Secretary Student's Welfare",
+    f_link: "https://www.facebook.com/tharun.naik.589",
+    in_link: "https://www.linkedin.com/in/tharunnaik",
+    email_link: "mailto:itistheinventor@gmail.com"
 }, {
     year: 2021,
     imgSrc: "../assets/hcm21/akSingh.jpg",
@@ -38,14 +118,6 @@ const all_hcms = [{
     f_link: "https://www.facebook.com/mudit.gupta.1800",
     in_link: "https://www.linkedin.com/in/mudit-gupta-b5a206180",
     email_link: "mailto:muditgupta140@gmail.com"
-}, {
-    year: 2021,
-    imgSrc: "../assets/hcm21/tNaik.jpg",
-    name: "Tharun Naik",
-    position: "General Secretary Student's Welfare",
-    f_link: "https://www.facebook.com/tharun.naik.589",
-    in_link: "https://www.linkedin.com/in/tharunnaik",
-    email_link: "mailto:itistheinventor@gmail.com"
 }, {
     year: 2020,
     imgSrc: "../assets/hcm20/aKaushal.jpeg",
@@ -218,12 +290,6 @@ btns.forEach((btn, index) => {
         let tenure = e.currentTarget.innerHTML;
         let year = parseInt(tenure.slice(0,4)) + 1;
         hcmSection.innerHTML = get_HCMs(year);
-        let anchors = [...hcmSection.querySelectorAll('a')];
-        invalid_a = anchors.filter(a => a.getAttribute('href') === "#");
-        invalid_a.forEach(a => {
-            a.style.visibility = "hidden";
-            a.parentElement.style.cursor = 'not-allowed';
-        });
     });
 })
 
@@ -244,9 +310,13 @@ function get_HCMs(year) {
         <h3 class="position">${year_hcm[i].position}</h3>
         <div class="icons">
             <ul>
-                <li><a href=${year_hcm[i].f_link} rel="noopener" target="${year_hcm[i].f_link !== '#'?"_blank":""}" aria-label="${year_hcm[i].f_link !== '#'?"link to facebook profile":""}"><i class="bi bi-facebook"></i></a></li>
-                <li><a href=${year_hcm[i].in_link} rel="noopener" target="${year_hcm[i].in_link !== '#'?"_blank":""}" aria-label="${year_hcm[i].in_link !== '#'?"link to linked-in profile":""}"><i class="bi bi-linkedin"></i></a></li>
-                <li><a href=${year_hcm[i].email_link} rel="noopener" target="${year_hcm[i].email_link !== '#'?"_blank":""}" aria-label="${year_hcm[i].email_link !== '#'?"email link":""}"><i class="bi bi-envelope-fill"></i></a></li>
+                <li style="${year_hcm[i].f_link === '#'?'cursor:not-allowed;':''}">
+                <a style="${year_hcm[i].f_link === '#'?'visibility:hidden;':''}" href=${year_hcm[i].f_link} rel="noopener" target="${year_hcm[i].f_link !== '#'?"_blank":""}" aria-label="${year_hcm[i].f_link !== '#'?"link to facebook profile":""}"><i class="bi bi-facebook"></i></a>
+                </li>
+
+                <li style="${year_hcm[i].in_link === '#'?'cursor:not-allowed;':''}"><a style="${year_hcm[i].in_link === '#'?'visibility:hidden;':''}" href=${year_hcm[i].in_link} rel="noopener" target="${year_hcm[i].in_link !== '#'?"_blank":""}" aria-label="${year_hcm[i].in_link !== '#'?"link to linked-in profile":""}"><i class="bi bi-linkedin"></i></a></li>
+
+                <li style="${year_hcm[i].email_link === '#'?'cursor:not-allowed;':''}"><a style="${year_hcm[i].email_link === '#'?'visibility:hidden;':''}" href=${year_hcm[i].email_link} rel="noopener" target="${year_hcm[i].email_link !== '#'?"_blank":""}" aria-label="${year_hcm[i].email_link !== '#'?"email link":""}"><i class="bi bi-envelope-fill"></i></a></li>
             </ul>
         </div>
         </div>
